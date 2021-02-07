@@ -1,3 +1,27 @@
+This is a simple CRUD (inspired by Twitch.tv) for practice purposes, made with react-redux. Shoutout to the instructor Stephen Grider for an amazing and comprehensive course on react-redux. Check out his Udemy https://www.udemy.com/user/sgslo/ for more good stuff!
+
+You might want to start a json-server with the db.json file as a dummy Database
+
+backend package.json configuration:
+
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "json-server -p 3001 -w db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3"
+  }
+}
+
+######################################################################################################################################################
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
