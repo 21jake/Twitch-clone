@@ -1,8 +1,9 @@
 This is a simple CRUD (inspired by Twitch.tv) for practice purposes, made with react-redux. Shoutout to the instructor Stephen Grider for an amazing and comprehensive course on react-redux. Check out his Udemy https://www.udemy.com/user/sgslo/ for more good stuff!
 
-You might want to start a json-server with the db.json file as a dummy Database
+You might want to start a json-server with the db.json file as a dummy Database (API folder)
+You also have to create a RTMP Server with Node-Media-Server as rtmpserver folder (https://www.npmjs.com/package/node-media-server) 
 
-backend package.json configuration:
+API package.json configuration:
 
 {
   "name": "api",
@@ -17,6 +18,24 @@ backend package.json configuration:
   "dependencies": {
     "json-server": "^0.16.3"
   }
+}
+
+rtmpserver package.json configuration (the content of index.js the single core version https://github.com/illuspas/Node-Media-Server )
+{
+  {
+  "name": "rtmpserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-media-server": "^2.2.4"
+  }
+}
 }
 
 ######################################################################################################################################################
